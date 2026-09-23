@@ -1,0 +1,37 @@
+name: thea_jump
+description: "TheaJump - jump, bounce and climb as high as you can!"
+publish_to: 'none'
+
+# Version 4.0.0 - rewrite of the original TheaJump (v3.0) in Flutter/Flame.
+version: 4.0.0+4
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.28.0
+  flame_audio: ^2.10.9
+  shared_preferences: ^2.5.3
+  share_plus: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
