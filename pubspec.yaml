@@ -3,7 +3,7 @@ description: "TheaJump - jump, bounce and climb as high as you can!"
 publish_to: 'none'
 
 # Version 4.0.0 - rewrite of the original TheaJump (v3.0) in Flutter/Flame.
-version: 4.0.0+4
+version: 4.0.0+5
 
 environment:
   sdk: ^3.13.0
